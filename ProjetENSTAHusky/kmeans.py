@@ -15,8 +15,8 @@ import random
 #%% Génération de l'image segmentée
 
 start = time.time()
-image_toRead_path = r'C:\Users\Quentin\Desktop\Le Reste\ProjetENSTAHusky\carteTemperature.png'
-image_toSave_path = r'C:\Users\Quentin\Desktop\Le Reste\ProjetENSTAHusky\carteTemperatureTraitee.png'
+image_toRead_path = r'carteTemperature.png'
+image_toSave_path = r'carteTemperatureTraitee.png'
 
 # lit l'image et la convertie en rgb
 image = cv2.imread(image_toRead_path)
@@ -50,7 +50,7 @@ plt.show()
 
 values = []
 distance_values = []
-distance_path = r'C:\Users\Quentin\Desktop\Le Reste\ProjetENSTAHusky\carteDistance.txt'
+distance_path = r'carteDistance.txt'
 
 for i in range(k):
     random_value = random.randrange(0 + 200*i, 200 + 200*i, 50)
