@@ -12,5 +12,3 @@ lance plusieurs itérations de kMeans sous différents compilateurs
 
 __run_clang.txt et run_gcc.txt :__
 résultats des scripts précédents (utilisés pour l'affichage avec disp)
-
-Test commit
